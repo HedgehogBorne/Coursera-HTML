@@ -1,0 +1,123 @@
+body{
+	background-color: lightblue;
+}
+
+#My_Menu{
+ text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#heading{
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 40px;
+}
+
+
+#Chicken_Header{
+	background-color: red;
+	padding: 5px;
+	border: 2px solid black;
+	width: 120px;
+	margin: -2px;
+	float: right;
+
+}
+
+#Chicken_Header_Content{
+	text-align: center;
+	font-size: 20px;
+}
+
+#Chicken_Box{
+	background-color: gray;
+	padding: 0px;
+	border:  2px solid black;
+	width: 400px;
+	display: inline-block;
+	margin: 25px;
+
+
+}
+
+#Chicken_Content{
+	padding: 10px;
+	padding-top: 35px;
+}
+
+
+#Beef_Header{
+	background-color: blue;
+	padding: 5px;
+	border: 2px solid black;
+	width: 120px;
+	margin: -2px;
+	float: right;
+
+}
+
+#Beef_Header_Content{
+	text-align: center;
+	font-size: 20px;
+}
+
+#Beef_Box{
+	background-color: gray;
+	padding: 0px;
+	border:  2px solid black;
+	width: 400px;
+	display: inline-block;
+	margin: 25px;
+}
+
+#Beef_Content{
+	padding: 10px;
+	padding-top: 35px;
+}
+
+
+#Sushi_Header{
+	background-color: green;
+	padding: 5px;
+	border: 2px solid black;
+	width: 120px;
+	margin: -2px;
+	float: right;
+
+}
+
+#Sushi_Header_Content{
+	text-align: center;
+	font-size: 20px;
+}
+
+#Sushi_Box{
+	background-color: gray;
+	padding: 0px;
+	border:  2px solid black;
+	width: 400px;
+display: inline-block;
+
+	margin: 25px;
+}
+
+#Sushi_Content{
+	padding: 10px;
+	padding-top: 35px;
+}
+
+
+@media (min-width: 768px) and (max-width: 991px){
+
+	#Sushi_Box{
+		width: 860px;
+	}
+}
+
+@media (max-width: 767px){
+
+	#Sushi_Box{
+		width: 400px ;
+	}
+}
